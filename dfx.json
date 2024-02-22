@@ -1,0 +1,18 @@
+{
+  "canisters": {
+    "go_canister": {
+      "package": "go_canister",
+      "type": "custom",
+      "wasm": "go_canister.wasm",
+      "candid": "go_canister.did"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}

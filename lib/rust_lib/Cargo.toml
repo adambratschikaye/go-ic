@@ -1,0 +1,10 @@
+[package]
+name = "rust-lib"
+version = "0.1.0"
+
+[lib]
+crate-type = ["staticlib"]
+
+[dependencies]
+libc = "0.2.153"
+ic-wasi-polyfill = "0.3.14"

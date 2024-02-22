@@ -1,0 +1,6 @@
+target/
+.dfx/
+.env
+main.wasm
+go_canister.wasm
+Cargo.lock
