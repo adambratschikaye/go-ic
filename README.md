@@ -43,7 +43,9 @@ This is an experimental POC for deploying a canister written in Go on the IC.
      }
 
 	```
-	(I used commit 377415a6c3158d5cefe8cd46c592b144053593aa)
+	(I used commit https://github.com/tinygo-org/tinygo/commit/377415a6c3158d5cefe8cd46c592b144053593aa)
+
+	This patch will enable the bulk memory operations Wasm feature and define a memory instead of importing one.
 
 2. Install `dfx` (recommended using [dfxvm](https://github.com/dfinity/dfxvm)).
 
