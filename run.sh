@@ -17,4 +17,4 @@ sed -i 's/canister_update\./canister_update /g' main.wasm
 cp main.wasm go_canister.wasm
 dfx deploy --no-wallet
 # The 'raw' input and output are hex strings so we use xxd to convert to hex and back
-dfx canister call --type raw --output raw go_canister run $(echo "IC User" | xxd -p) | xxd -r -p
+dfx canister call --type raw --output raw go_canister run $(echo -n "World" | xxd -p) | xxd -r -p

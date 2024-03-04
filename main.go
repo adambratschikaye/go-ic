@@ -26,6 +26,7 @@ func run() {
 
 	response := []byte("Hello ")
 	response = append(response, arg[:]...)
+	response = append(response, '!')
 	reply_append(int32(uintptr(unsafe.Pointer(&response[0]))), int32(len(response)))
 	reply()
 }
