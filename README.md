@@ -2,7 +2,9 @@
 
 ## Warning
 
-This is an experimental POC for deploying a canister written in Go on the IC.
+This is an experimental POC for deploying a canister written in Go on the IC. It
+contains an hello world example that works, but there are likely to be problems
+using any libraries.
 
 ## Prerequisites
 
