@@ -6,9 +6,7 @@ This is an experimental POC for deploying a canister written in Go on the IC.
 
 ## Prerequisites
 
-1. Install Rust (recommended by using [rustup](https://www.rust-lang.org/tools/install)).
-
-2. Install [Tinygo](https://github.com/tinygo-org/tinygo) from source(https://tinygo.org/docs/guides/build/) with the following patch:
+1. Install [Tinygo](https://github.com/tinygo-org/tinygo) from source(https://tinygo.org/docs/guides/build/) with the following patch:
 	```
 	diff --git a/targets/wasm-unknown.json b/targets/wasm-unknown.json
     index 903afa49..55ca4c70 100644
@@ -47,7 +45,7 @@ This is an experimental POC for deploying a canister written in Go on the IC.
 	```
 	(I used commit 377415a6c3158d5cefe8cd46c592b144053593aa)
 
-3. Install `dfx` (recommended using [dfxvm](https://github.com/dfinity/dfxvm)).
+2. Install `dfx` (recommended using [dfxvm](https://github.com/dfinity/dfxvm)).
 
 ## Steps to build and deploy
 
